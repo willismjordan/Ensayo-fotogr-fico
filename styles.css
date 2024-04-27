@@ -13,6 +13,11 @@ body, html {
 
 #manhattan-map {
     width: 100%;
+    height: 100vh
+    object-fit: contain;
+    object-position: center;
+
+    
     transition: transform 2s ease-in-out; /* Smooth transformation */
 }
 
